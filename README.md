@@ -1,7 +1,7 @@
 # 🛡️ Labs Réseau & Sécurité — Blanchard Koubemba
 
 > Administrateur systèmes & réseaux | CCNA 200-301 | Préparation Fortinet NSE4  
-> Ce dépôt regroupe mes labs techniques réalisés en environnement simulé (EVE-NG, GNS3, Packet Tracer).  
+> Ce dépôt regroupe mes labs techniques réalisés en environnement simulé (EVE-NG, PNETLab, Packet Tracer).  
 > Chaque lab documente une problématique réelle : conception, mise en œuvre, troubleshooting et résultats.
 
 [![CCNA](https://img.shields.io/badge/Cisco-CCNA_200--301-blue?logo=cisco)](https://cp.certmetrics.com/cisco/en/public/verify/credential/328896ebc1b041579c057d945b48aff6)
