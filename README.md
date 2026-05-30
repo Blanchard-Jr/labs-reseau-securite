@@ -1,6 +1,6 @@
 # 🛡️ Labs Réseau & Sécurité — Blanchard Koubemba
 
-> Ingénieur Réseaux & Sécurité | CCNA 200-301 | Préparation Fortinet NSE4  
+> Administrateur systèmes & réseaux | CCNA 200-301 | Préparation Fortinet NSE4  
 > Ce dépôt regroupe mes labs techniques réalisés en environnement simulé (EVE-NG, GNS3, Packet Tracer).  
 > Chaque lab documente une problématique réelle : conception, mise en œuvre, troubleshooting et résultats.
 
@@ -71,6 +71,29 @@ FortiGate        Cisco IOS         EVE-NG              Troubleshooting
 - [ ] Lab VLAN / Inter-VLAN Routing
 - [ ] Lab ACL avancées
 
+---
+
+## 🛠️ Outils & Environnement technique
+
+Les labs sont réalisés dans des environnements simulés proches de la production, avec les outils suivants :
+
+### 🔬 Plateformes de virtualisation réseau
+- **EVE-NG** — Simulation avancée de topologies multi-constructeurs
+- **PNETLab** — Alternative performante pour les labs complexes
+
+### 🔥 Équipements & systèmes
+- **FortiGate (Fortinet)** — Firewall, SD-WAN, NAT, VPN
+- **Cisco IOS** — Routing & Switching (CCNA level)
+- **Windows / Linux** — Machines clientes, serveurs et tests réseau
+
+### ⚙️ Automatisation & scripting
+- **Python** — Scripts d’automatisation réseau
+- **Ansible** — Déploiement et configuration automatisée d’équipements
+
+### 📊 Outils d’analyse
+- **Wireshark** — Analyse de trafic réseau (troubleshooting)
+- **CLI (SSH / Console)** — Configuration et diagnostic bas niveau
+  
 ---
 
 ## 🔗 Me retrouver
