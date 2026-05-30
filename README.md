@@ -1,7 +1,7 @@
 # 🛡️ Labs Réseau & Sécurité — Blanchard Koubemba
 
 > Administrateur systèmes & réseaux | CCNA 200-301 | Préparation Fortinet NSE4  
-> Ce dépôt regroupe mes labs techniques réalisés en environnement simulé (EVE-NG, PNETLab, Packet Tracer).  
+> Ce dépôt regroupe mes labs techniques réalisés en environnement simulé (EVE-NG, GNS3, Packet Tracer).  
 > Chaque lab documente une problématique réelle : conception, mise en œuvre, troubleshooting et résultats.
 
 [![CCNA](https://img.shields.io/badge/Cisco-CCNA_200--301-blue?logo=cisco)](https://cp.certmetrics.com/cisco/en/public/verify/credential/328896ebc1b041579c057d945b48aff6)
@@ -33,7 +33,10 @@ Les labs de ce repo couvrent trois axes principaux :
 
 ### 🌐 Cisco / CCNA
 
-> *Labs CCNA à venir — en cours de documentation*
+| Lab | Description | Niveau | Technos |
+|-----|-------------|--------|---------|
+| [Lab CCNA — Architecture LAN 3-Tier](./lab-ccna-3tier-vlan-hsrp-etherchannel/) | Architecture hiérarchique Core/Distribution/Access avec redondance HSRP et agrégation EtherChannel | ⭐⭐⭐ | Cisco IOS · VLAN · HSRP v2 · EtherChannel · Routage Inter-VLAN |
+| [Lab CCNA — OSPF Multi-Site · DHCP · ACL](./lab-ccna-ospf-dhcp-acl/) | Routage dynamique OSPF entre deux sites, DHCP centralisé et filtrage de trafic par ACL étendues | ⭐⭐ | Cisco IOS · OSPF · DHCP · ACL étendues |
 
 ---
 
@@ -62,38 +65,56 @@ FortiGate        Cisco IOS         EVE-NG              Troubleshooting
 
 ---
 
-## 🗺️ Roadmap
+## 🛠️ Outils utilisés
 
-- [x] Lab FortiGate SD-WAN Multi-WAN
-- [ ] Lab FortiGate VPN IPsec Site-to-Site
-- [ ] Lab FortiGate Firewall Policy & Application Control
-- [ ] Lab OSPF multi-area
-- [ ] Lab VLAN / Inter-VLAN Routing
-- [ ] Lab ACL avancées
+### Simulation & Lab
+| Outil | Usage |
+|-------|-------|
+| **EVE-NG / PNetLab** | Simulation de topologies réseau complètes |
+| **GNS3** | Émulation d'équipements Cisco et réseau |
+| **Cisco Packet Tracer** | Prototypage rapide de labs CCNA |
+
+### Sécurité & Firewall
+| Outil | Usage |
+|-------|-------|
+| **FortiGate** | Firewall, SD-WAN, VPN, IPS, Application Control |
+| **Wireshark** | Analyse et capture de trames réseau |
+| **Kali Linux** | Tests de sécurité, audit réseau, outils offensifs (lab) |
+
+### Systèmes & Infrastructure
+| Outil | Usage |
+|-------|-------|
+| **Windows Server** | AD DS, DNS, DHCP, Hyper-V |
+| **Linux (Debian/Ubuntu)** | Serveurs, routage, scripting, outils réseau |
+| **Windows** | Administration postes, GPO, outils réseau |
+
+### Monitoring & Supervision
+| Outil | Usage |
+|-------|-------|
+| **PRTG / Zabbix** | Supervision réseau et alerting |
+| **FortiView / Dashboard** | Monitoring temps réel FortiGate |
+| **Syslog** | Centralisation des logs équipements |
+
+### Automatisation & Scripting
+| Outil | Usage |
+|-------|-------|
+| **PowerShell** | Automatisation Windows / Active Directory |
+| **Bash** | Scripts Linux, tâches réseau |
+| **Python** | Automatisation réseau, parsing de configs (lab) |
+| **Ansible** | Automatisation de configuration d'équipements réseau (lab) |
 
 ---
 
-## 🛠️ Outils & Environnement technique
+## 🗺️ Roadmap
 
-Les labs sont réalisés dans des environnements simulés proches de la production, avec les outils suivants :
+- [x] Lab FortiGate SD-WAN Multi-WAN
+- [x] Lab CCNA — Architecture LAN 3-Tier (VLAN · HSRP · EtherChannel)
+- [x] Lab CCNA — OSPF Multi-Site · DHCP · ACL
+- [ ] Lab FortiGate VPN IPsec Site-to-Site
+- [ ] Lab FortiGate Firewall Policy & Application Control
+- [ ] Lab CCNA — DHCP multi-VLAN
+- [ ] Lab CCNA — WLC Wireless LAN Controller
 
-### 🔬 Plateformes de virtualisation réseau
-- **EVE-NG** — Simulation avancée de topologies multi-constructeurs
-- **PNETLab** — Alternative performante pour les labs complexes
-
-### 🔥 Équipements & systèmes
-- **FortiGate (Fortinet)** — Firewall, SD-WAN, NAT, VPN
-- **Cisco IOS** — Routing & Switching (CCNA level)
-- **Windows / Linux** — Machines clientes, serveurs et tests réseau
-
-### ⚙️ Automatisation & scripting
-- **Python** — Scripts d’automatisation réseau
-- **Ansible** — Déploiement et configuration automatisée d’équipements
-
-### 📊 Outils d’analyse
-- **Wireshark** — Analyse de trafic réseau (troubleshooting)
-- **CLI (SSH / Console)** — Configuration et diagnostic bas niveau
-  
 ---
 
 ## 🔗 Me retrouver
