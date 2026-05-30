@@ -1,6 +1,6 @@
 # 🛡️ Labs Réseau & Sécurité — Blanchard Koubemba
 
-> Ingénieur Réseaux & Sécurité en devenir | CCNA 200-301 | Préparation Fortinet NSE4  
+> Ingénieur Réseaux & Sécurité | CCNA 200-301 | Préparation Fortinet NSE4  
 > Ce dépôt regroupe mes labs techniques réalisés en environnement simulé (EVE-NG, GNS3, Packet Tracer).  
 > Chaque lab documente une problématique réelle : conception, mise en œuvre, troubleshooting et résultats.
 
