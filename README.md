@@ -1,12 +1,12 @@
 # 🛡️ Labs Réseau & Sécurité — Blanchard Koubemba
 
-> Administrateur systèmes & réseaux | CCNA 200-301 | Préparation Fortinet NSE4  
-> Ce dépôt regroupe mes labs techniques réalisés en environnement simulé (EVE-NG, GNS3, Packet Tracer).  
+> Administrateur Réseaux & Sécurité | CCNA 200-301 | Préparation Fortinet FCP Network Security  
+> Ce dépôt regroupe mes labs techniques réalisés en environnement simulé (EVE-NG, PNetLab, Packet Tracer).  
 > Chaque lab documente une problématique réelle : conception, mise en œuvre, troubleshooting et résultats.
 
 [![CCNA](https://img.shields.io/badge/Cisco-CCNA_200--301-blue?logo=cisco)](https://cp.certmetrics.com/cisco/en/public/verify/credential/328896ebc1b041579c057d945b48aff6)
-[![NSE4](https://img.shields.io/badge/Fortinet-NSE4_en_cours-red?logo=fortinet)](https://training.fortinet.com)
-[![EVE-NG](https://img.shields.io/badge/Plateforme-EVE--NG-orange)](https://www.eve-ng.net/)
+[![FCP](https://img.shields.io/badge/Fortinet-FCP_Network_Security-red?logo=fortinet)](https://training.fortinet.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-blanchard--koubemba.netlify.app-green)](https://blanchard-koubemba.netlify.app)
 
 ---
 
@@ -25,7 +25,7 @@ Les labs de ce repo couvrent trois axes principaux :
 
 ## 📂 Labs disponibles
 
-### 🔥 Fortinet / NSE4
+### 🔥 Fortinet / FCP Network Security
 
 | Lab | Description | Niveau | Technos |
 |-----|-------------|--------|---------|
@@ -42,8 +42,6 @@ Les labs de ce repo couvrent trois axes principaux :
 
 ## 🏗️ Structure type d'un lab
 
-Chaque lab suit la même organisation pour faciliter la lecture :
-
 ```
 lab-nom-du-lab/
 ├── README.md          ← Contexte, architecture, mise en œuvre, résultats
@@ -58,9 +56,9 @@ lab-nom-du-lab/
 
 ```
 Routing          Switching         VLAN / Trunking     STP / RSTP
-OSPF             EIGRP             BGP (notions)       NAT / PAT
-Firewall Policy  SD-WAN            VPN IPsec           ACL
-FortiGate        Cisco IOS         EVE-NG              Troubleshooting
+OSPF             EIGRP             NAT / PAT           ACL étendues
+Firewall Policy  SD-WAN            VPN IPsec           Troubleshooting
+FortiGate        Cisco IOS         EVE-NG / PNetLab    Packet Tracer
 ```
 
 ---
@@ -71,7 +69,6 @@ FortiGate        Cisco IOS         EVE-NG              Troubleshooting
 | Outil | Usage |
 |-------|-------|
 | **EVE-NG / PNetLab** | Simulation de topologies réseau complètes |
-| **GNS3** | Émulation d'équipements Cisco et réseau |
 | **Cisco Packet Tracer** | Prototypage rapide de labs CCNA |
 
 ### Sécurité & Firewall
@@ -79,21 +76,20 @@ FortiGate        Cisco IOS         EVE-NG              Troubleshooting
 |-------|-------|
 | **FortiGate** | Firewall, SD-WAN, VPN, IPS, Application Control |
 | **Wireshark** | Analyse et capture de trames réseau |
-| **Kali Linux** | Tests de sécurité, audit réseau, outils offensifs (lab) |
+| **Kali Linux** | Tests de sécurité, audit réseau (lab) |
 
 ### Systèmes & Infrastructure
 | Outil | Usage |
 |-------|-------|
 | **Windows Server** | AD DS, DNS, DHCP, Hyper-V |
 | **Linux (Debian/Ubuntu)** | Serveurs, routage, scripting, outils réseau |
-| **Windows** | Administration postes, GPO, outils réseau |
 
 ### Monitoring & Supervision
 | Outil | Usage |
 |-------|-------|
-| **PRTG / Zabbix** | Supervision réseau et alerting |
+| **Zabbix** | Supervision réseau et alerting |
 | **FortiView / Dashboard** | Monitoring temps réel FortiGate |
-| **Syslog** | Centralisation des logs équipements |
+| **Graylog / Syslog** | Centralisation et analyse des logs |
 
 ### Automatisation & Scripting
 | Outil | Usage |
@@ -122,7 +118,7 @@ FortiGate        Cisco IOS         EVE-NG              Troubleshooting
 | Plateforme | Lien |
 |------------|------|
 | 💼 LinkedIn | [blanchard-koubemba](https://www.linkedin.com/in/blanchard-koubemba-a9524ab5/) |
-| 🌐 Portfolio | [velvety-lolly-6d76ef.netlify.app](https://velvety-lolly-6d76ef.netlify.app/) |
+| 🌐 Portfolio | [blanchard-koubemba.netlify.app](https://blanchard-koubemba.netlify.app) |
 | 📁 Projets antérieurs | [projets-techniques](https://github.com/Blanchard-Jr/projets-techniques) |
 
 ---
@@ -130,6 +126,6 @@ FortiGate        Cisco IOS         EVE-NG              Troubleshooting
 ## 👤 À propos
 
 **Blanchard Koubemba**  
-Administrateur systèmes & réseaux en transition vers l'ingénierie réseaux & sécurité.  
-Après l'obtention du **CCNA 200-301**, je construis une expertise sur les solutions **Fortinet** dans le cadre de ma préparation au **NSE4**.  
-Je documente chaque lab pour partager ma progression et démontrer mes compétences de manière concrète.
+Administrateur Réseaux & Sécurité — CCNA 200-301.  
+Je construis une expertise sur les solutions **Fortinet** dans le cadre de ma préparation au **FCP Network Security**.  
+Je documente chaque lab pour démontrer mes compétences de manière concrète et préparer ma transition vers l'ingénierie réseaux & sécurité.
